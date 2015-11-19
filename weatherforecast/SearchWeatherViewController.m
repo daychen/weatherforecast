@@ -131,7 +131,7 @@
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
     
     cell.backgroundColor=[UIColor clearColor];
-    cell.textColor=[UIColor grayColor];
+    cell.textLabel.textColor=[UIColor grayColor];
 }
 
 @end
