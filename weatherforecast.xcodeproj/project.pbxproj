@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D8B326D1BFE245100EECCBB /* SearchWeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B326C1BFE245100EECCBB /* SearchWeatherViewController.m */; };
 		8D9A77DE1BFCBAE7003C883F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9A77DD1BFCBAE7003C883F /* main.m */; };
 		8D9A77E11BFCBAE7003C883F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9A77E01BFCBAE7003C883F /* AppDelegate.m */; };
 		8D9A77E41BFCBAE7003C883F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9A77E31BFCBAE7003C883F /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D8B326B1BFE245100EECCBB /* SearchWeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchWeatherViewController.h; sourceTree = "<group>"; };
+		8D8B326C1BFE245100EECCBB /* SearchWeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchWeatherViewController.m; sourceTree = "<group>"; };
 		8D9A77D81BFCBAE7003C883F /* weatherforecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherforecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9A77DC1BFCBAE7003C883F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D9A77DD1BFCBAE7003C883F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		8D9A77DA1BFCBAE7003C883F /* weatherforecast */ = {
 			isa = PBXGroup;
 			children = (
+				8D8B326B1BFE245100EECCBB /* SearchWeatherViewController.h */,
+				8D8B326C1BFE245100EECCBB /* SearchWeatherViewController.m */,
 				8D9A77DF1BFCBAE7003C883F /* AppDelegate.h */,
 				8D9A77E01BFCBAE7003C883F /* AppDelegate.m */,
 				8D9A77E21BFCBAE7003C883F /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9A77E41BFCBAE7003C883F /* ViewController.m in Sources */,
+				8D8B326D1BFE245100EECCBB /* SearchWeatherViewController.m in Sources */,
 				8D9A77E11BFCBAE7003C883F /* AppDelegate.m in Sources */,
 				8D9A77DE1BFCBAE7003C883F /* main.m in Sources */,
 			);
@@ -348,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = weatherforecast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = weatherforecast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +424,7 @@
 				8D9A77FD1BFCBAE7003C883F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D9A77FE1BFCBAE7003C883F /* Build configuration list for PBXNativeTarget "weatherforecastTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				8D9A78001BFCBAE7003C883F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
