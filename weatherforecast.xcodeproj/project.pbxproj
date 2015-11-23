@@ -15,6 +15,7 @@
 		8D9A77E91BFCBAE7003C883F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A77E81BFCBAE7003C883F /* Images.xcassets */; };
 		8D9A77EC1BFCBAE7003C883F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A77EA1BFCBAE7003C883F /* LaunchScreen.xib */; };
 		8D9A77F81BFCBAE7003C883F /* weatherforecastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9A77F71BFCBAE7003C883F /* weatherforecastTests.m */; };
+		8DB312EB1C01E3BE00874C55 /* SearchFormTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB312EA1C01E3BE00874C55 /* SearchFormTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		8D9A77F11BFCBAE7003C883F /* weatherforecastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherforecastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9A77F61BFCBAE7003C883F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D9A77F71BFCBAE7003C883F /* weatherforecastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherforecastTests.m; sourceTree = "<group>"; };
+		8DB312E91C01E3BE00874C55 /* SearchFormTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFormTableViewController.h; sourceTree = "<group>"; };
+		8DB312EA1C01E3BE00874C55 /* SearchFormTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFormTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				8D9A77E21BFCBAE7003C883F /* ViewController.h */,
 				8D9A77E31BFCBAE7003C883F /* ViewController.m */,
 				8D9A77E51BFCBAE7003C883F /* Main.storyboard */,
+				8DB312E91C01E3BE00874C55 /* SearchFormTableViewController.h */,
+				8DB312EA1C01E3BE00874C55 /* SearchFormTableViewController.m */,
 				8D9A77E81BFCBAE7003C883F /* Images.xcassets */,
 				8D9A77EA1BFCBAE7003C883F /* LaunchScreen.xib */,
 				8D9A77DB1BFCBAE7003C883F /* Supporting Files */,
@@ -226,6 +231,7 @@
 			files = (
 				8D9A77E41BFCBAE7003C883F /* ViewController.m in Sources */,
 				8D8B326D1BFE245100EECCBB /* SearchWeatherViewController.m in Sources */,
+				8DB312EB1C01E3BE00874C55 /* SearchFormTableViewController.m in Sources */,
 				8D9A77E11BFCBAE7003C883F /* AppDelegate.m in Sources */,
 				8D9A77DE1BFCBAE7003C883F /* main.m in Sources */,
 			);
